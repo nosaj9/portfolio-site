@@ -1,8 +1,11 @@
 @import "../style/colors";
 
 footer {
-    padding: 1rem;
+    // padding: 1rem;
     background-color: $background-color;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
 }
 
 .icons {
@@ -11,10 +14,6 @@ footer {
     align-items: center;
     justify-content: center;
     gap: 2rem;
-}
-
-footer > a {
-    margin: 1rem;
 }
 
 .icons > a > * {
