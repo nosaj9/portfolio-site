@@ -3,17 +3,24 @@
     flex-direction: row;
     gap: 3rem;
     justify-content: center;
-    margin: 1rem;
+    margin-top: 3rem;
 }
 
 .normal {
-    color: blue;
+    color: white;
+    text-decoration: none;
 }
 
 .active {
-    color: red;
+    color: #7c98b3;
 }
 
-.navbar > .option {
+.option {
+    font-size: 2rem;
+    transition: all 350ms ease;
+}
 
+.option:hover {
+    text-decoration-color: #7c98b3;
+    text-decoration: underline;
 }

@@ -2,26 +2,18 @@ import { NavLink } from "react-router-dom";
 import "./Navbar.scss"
 
 export default function Navbar() {
-    const activeLink = "active";
-    const normalLink = "normal";
+    const activeLink = "active option";
+    const normalLink = "normal option";
 
     return (
         <nav className="navbar">
-            <div className="option">
-                <NavLink to="/" className={({ isActive }) => (isActive ? activeLink : normalLink)}>Home</NavLink>
-            </div>
+            <NavLink to="/" className={({ isActive }) => (isActive ? activeLink : normalLink)}>Home</NavLink>
 
-            <div className="option">
-                <NavLink to="/about" className={({ isActive }) => (isActive ? activeLink : normalLink)}>About</NavLink>
-            </div>
+            <NavLink to="/about" className={({ isActive }) => (isActive ? activeLink : normalLink)}>About</NavLink>
 
-            <div className="option">
-                <NavLink to="/projects" className={({ isActive }) => (isActive ? activeLink : normalLink)}>Projects</NavLink>
-            </div>
+            <NavLink to="/projects" className={({ isActive }) => (isActive ? activeLink : normalLink)}>Projects</NavLink>
 
-            <div className="option">
-                <NavLink to="/acappella" className={({ isActive }) => (isActive ? activeLink : normalLink)}>Acappella</NavLink>
-            </div>
+            <NavLink to="/acappella" className={({ isActive }) => (isActive ? activeLink : normalLink)}>Acappella</NavLink>
         </nav>
     )
 }
