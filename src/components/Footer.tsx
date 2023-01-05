@@ -5,7 +5,7 @@ import {
     IoMail
 } from "react-icons/io5"
 
-import "./Footer.css"
+import "./Footer.scss"
 
 export default function Footer() {
     return (

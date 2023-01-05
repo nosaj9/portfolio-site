@@ -1,6 +1,5 @@
-import React from "react"
 
-import "./Footer.css"
+import "./Navbar.scss"
 
 export default function Navbar() {
     return (

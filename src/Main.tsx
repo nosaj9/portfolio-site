@@ -1,5 +1,4 @@
-import React from "react"
-import "./Main.css";
+import "./Main.scss";
 
 export default function Navbar() {
     return (
