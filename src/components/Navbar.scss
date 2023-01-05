@@ -1,3 +1,9 @@
-nav {
+.navbar {
+    display: flex;
+    flex-direction: row;
+    gap: 3rem;
+}
+
+.navbar > .option {
 
 }
