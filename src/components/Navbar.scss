@@ -2,6 +2,15 @@
     display: flex;
     flex-direction: row;
     gap: 3rem;
+    justify-content: center;
+}
+
+.normal {
+    color: blue;
+}
+
+.active {
+    color: red;
 }
 
 .navbar > .option {
