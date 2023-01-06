@@ -1,0 +1,38 @@
+@import "../style/colors";
+
+div {
+    text-align: center;
+    font-size: 1.5rem;
+}
+
+.highlight {
+    color: $accent;
+}
+
+.About {
+    margin-left: 25%;
+    margin-right: 25%;
+}
+
+.About > h2 {
+    color: $header-color;
+}
+
+.About > p {
+    text-align: left;
+    color: $text-color;
+    line-height: 3rem;
+}
+
+.About > p > .pagelink {
+    color: $text-color;
+    transition: color 150ms ease;
+}
+
+.About > p > .pagelink:visited {
+    color: $text-color;
+}
+
+.About > p > .pagelink:hover {
+    color: $navbar-active;
+}
