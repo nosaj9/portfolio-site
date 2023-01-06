@@ -9,13 +9,13 @@
 }
 
 .normal {
-    color: white;
+    color: $text-color;
     text-decoration: none;
 }
 
 .active {
     color: $navbar-active;
-    border-bottom: 3px solid white;
+    border-bottom: 3px solid $text-color;
 }
 
 .option {
