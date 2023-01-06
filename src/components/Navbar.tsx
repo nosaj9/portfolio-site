@@ -7,13 +7,13 @@ export default function Navbar() {
 
     return (
         <nav className="navbar">
-            <NavLink to="/" className={({ isActive }) => (isActive ? activeLink : normalLink)}>Home</NavLink>
+            <NavLink to="/" className={({ isActive }) => (isActive ? activeLink : normalLink)}>HOME</NavLink>
 
-            <NavLink to="/about" className={({ isActive }) => (isActive ? activeLink : normalLink)}>About</NavLink>
+            <NavLink to="/about" className={({ isActive }) => (isActive ? activeLink : normalLink)}>ABOUT</NavLink>
 
-            <NavLink to="/projects" className={({ isActive }) => (isActive ? activeLink : normalLink)}>Projects</NavLink>
+            <NavLink to="/projects" className={({ isActive }) => (isActive ? activeLink : normalLink)}>PROJECTS</NavLink>
 
-            <NavLink to="/acappella" className={({ isActive }) => (isActive ? activeLink : normalLink)}>Acappella</NavLink>
+            <NavLink to="/acappella" className={({ isActive }) => (isActive ? activeLink : normalLink)}>ACAPPELLA</NavLink>
         </nav>
     )
 }

@@ -1,3 +1,5 @@
+@import "../style/colors";
+
 .navbar {
     display: flex;
     flex-direction: row;
@@ -12,15 +14,16 @@
 }
 
 .active {
-    color: #7c98b3;
+    color: $navbar-active;
+    border-bottom: 3px solid white;
 }
 
 .option {
     font-size: 2rem;
-    transition: all 350ms ease;
+    transition: color 350ms ease;
+    text-decoration: none;
 }
 
 .option:hover {
-    text-decoration-color: #7c98b3;
-    text-decoration: underline;
+    color: $navbar-active;
 }
