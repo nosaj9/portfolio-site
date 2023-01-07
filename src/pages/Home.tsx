@@ -3,7 +3,10 @@ import "./style.scss";
 
 const Home = () => {
     return (
-        <h1>Home</h1>
+        <div className="Home">
+            <h2>Welcome</h2>
+            <p>You have reached my website! Feel free to look around and contact me below.</p>
+        </div>
     )
 }
 

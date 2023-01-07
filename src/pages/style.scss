@@ -36,3 +36,13 @@ div {
 .About > p > .pagelink:hover {
     color: $navbar-active;
 }
+
+.Home > h2 {
+    color: $header-color;
+}
+
+.Home > p {
+    text-align: center;
+    color: $text-color;
+    line-height: 3rem;
+}
