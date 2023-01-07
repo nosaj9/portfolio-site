@@ -12,7 +12,12 @@ const About = () => {
             </p>
 
             <p>
-                During my free time, I like to 
+                During my free time, I like to sing, play piano (mostly movie/video game soundtracks), watch DC Comics cartoons, and hangout with my dog Brooke. 
+            </p>
+
+            <p>
+                If you have any questions, advice, resources, or just want to chat, please reach out below! I'm always open to learning new things and exploring ways to grow. 
+                My socials are below: 
             </p>
         </div>
     )
