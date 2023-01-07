@@ -24,13 +24,14 @@ div {
 .About {
     margin-left: 28%;
     margin-right: 28%;
+    text-align: left;
 
     h2 {
         color: $header-color;
+        text-align: center;
     }
 
     p {
-        text-align: left;
         color: $text-color;
         line-height: 3rem;
     }
@@ -57,6 +58,14 @@ div {
         }
     }
     
+    & > a {
+        color: $accent;
+        text-decoration: none;
+    }
+
+    & > a:hover {
+        color: $navbar-active;
+    }
 }
 
 .Home > h2 {
