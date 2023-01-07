@@ -7,34 +7,56 @@ div {
 
 .highlight {
     color: $accent;
+    font-weight: 600;
+}
+
+@keyframes fadeIn {
+    from {
+      opacity: 0;
+      transform: translateY(-50%);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
 }
 
 .About {
     margin-left: 28%;
     margin-right: 28%;
-}
 
-.About > h2 {
-    color: $header-color;
-}
+    h2 {
+        color: $header-color;
+    }
 
-.About > p {
-    text-align: left;
-    color: $text-color;
-    line-height: 3rem;
-}
+    p {
+        text-align: left;
+        color: $text-color;
+        line-height: 3rem;
+    }
 
-.About > p > .pagelink {
-    color: $text-color;
-    transition: color 150ms ease;
-}
+    p > .pagelink {
+        color: $text-color;
+        transition: color 150ms ease;
+    }
 
-.About > p > .pagelink:visited {
-    color: $text-color;
-}
+    p > .pagelink:visited {
+        color: $text-color;
+    }
 
-.About > p > .pagelink:hover {
-    color: $navbar-active;
+    p > .pagelink:hover {
+        color: $navbar-active;
+    }
+
+    @for $i from 1 through 4 {
+        & > *:nth-child(#{$i}) {
+          opacity: 0;
+          animation: fadeIn 500ms ease;
+          animation-fill-mode: forwards;
+          animation-delay: #{$i * 80}ms;
+        }
+    }
+    
 }
 
 .Home > h2 {
