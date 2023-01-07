@@ -17,7 +17,7 @@ const About = () => {
 
             <p>
                 If you have any questions, advice, resources, or just want to chat, please reach out below! I'm always open to learning new things and exploring ways to grow. 
-                My socials are below: 
+                Contact me below: 
             </p>
         </div>
     )
