@@ -66,6 +66,10 @@ div {
     & > a:hover {
         color: $navbar-active;
     }
+
+    a > * {
+        height: 3rem;
+    }
 }
 
 .Home > h2 {
