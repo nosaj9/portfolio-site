@@ -20,7 +20,10 @@ const About = () => {
                 If you have any questions, advice, or just want to chat, please <a href="mailto:jwangd8@gmail.com" target="_blank" className="pagelink">reach out</a>! I'm always open to learning new things and exploring ways to grow.
             </p>
 
-            <a href="" target="_blank" className="pagelink">View my resume <IoDocumentTextOutline /></a>
+            <div>
+                <a href="file:///C:\Users\jdcom\Downloads\Jason_Wang_Resume-1.pdf" target="_blank" className="pagelink">View my resume <IoDocumentTextOutline /></a>
+            </div>
+            
         </div>
     )
 }

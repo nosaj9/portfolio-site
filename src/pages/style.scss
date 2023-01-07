@@ -13,7 +13,7 @@ div {
 @keyframes fadeIn {
     from {
       opacity: 0;
-      transform: translateY(-20%);
+      transform: translateY(-30%);
     }
     to {
       opacity: 1;
@@ -58,17 +58,21 @@ div {
         }
     }
     
-    & > a {
+    & > div > a {
         color: $accent;
         text-decoration: none;
     }
 
-    & > a:hover {
+    & > div > a:hover {
         color: $navbar-active;
     }
 
-    a > * {
+    & > div > a > * {
         height: 3rem;
+    }
+
+    & > div {
+        text-align: left;
     }
 }
 
