@@ -19,7 +19,7 @@ const About = () => {
             </p>
 
             <p>
-                If you have any questions, advice, or just want to chat, please <a href="mailto:jwangd8@gmail.com" target="_blank" className="pagelink">reach out</a>! I'm always open to learning new things and exploring ways to grow.
+                If you have any questions, advice, or just want to chat, please <a href="mailto:jwangd8@gmail.com" target="_blank" rel="noreferrer" className="pagelink">reach out</a>! I'm always open to learning new things and exploring ways to grow.
             </p>
 
             {/* <div>

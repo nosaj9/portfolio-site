@@ -10,15 +10,15 @@ export default function Footer() {
     return (
         <footer>
             <div className="icons">
-                <a href="https://github.com/nosaj9/" target="_blank">
+                <a href="https://github.com/nosaj9/" target="_blank" rel="noreferrer">
                     <IoLogoGithub />
                 </a>
 
-                <a href="https://www.linkedin.com/in/jason-d-wang/" target="_blank">
+                <a href="https://www.linkedin.com/in/jason-d-wang/" target="_blank" rel="noreferrer">
                     <IoLogoLinkedin />
                 </a>
 
-                <a href="mailto:jwangd8@gmail.com" target="_blank">
+                <a href="mailto:jwangd8@gmail.com" target="_blank" rel="noreferrer">
                     <IoMail />
                 </a>
             </div>
