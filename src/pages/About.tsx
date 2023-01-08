@@ -9,7 +9,7 @@ const About = () => {
 
             <h1>A little bit about me..</h1>
             <p>
-                Hi, I'm Jason! I'm a <span className="highlight">computer science</span> major studying at the University of Maryland, College Park where I'm also currently part
+                I'm a <span className="highlight">computer science</span> major studying at the University of Maryland, College Park where I'm also currently part
                 of the Advanced Cybersecurity Experience for Students (ACES) Program. 
                 After graduating, I hope to be a <span className="highlight">software engineer</span>!
             </p>

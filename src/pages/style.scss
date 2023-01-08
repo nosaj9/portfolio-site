@@ -75,12 +75,25 @@ div {
     }
 }
 
-.Home > h2 {
-    color: $header-color;
-}
+.Home {
+    margin-left: 28%;
+    margin-right: 28%;
+    text-align: left;
 
-.Home > p {
-    text-align: center;
-    color: $text-color;
-    line-height: 3rem;
+    h1 {
+        color: $header-color;
+        text-align: left;
+    }
+    
+    p {
+        color: $text-color;
+        line-height: 3rem;
+    }
+
+    img {
+        border-radius: 50%;
+        float: right;
+        margin-top: 3rem;
+        margin-right: 3rem;
+    }
 }
