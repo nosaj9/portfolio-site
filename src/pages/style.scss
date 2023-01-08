@@ -96,4 +96,13 @@ div {
         margin-top: 3rem;
         margin-right: 3rem;
     }
+
+    @for $i from 1 through 7 {
+        & > *:nth-child(#{$i}) {
+          opacity: 0;
+          animation: fadeIn 500ms ease;
+          animation-fill-mode: forwards;
+          animation-delay: #{$i * 80}ms;
+        }
+    }
 }
