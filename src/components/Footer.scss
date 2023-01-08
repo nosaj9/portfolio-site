@@ -3,7 +3,8 @@
 footer {
     // padding: 1rem;
     background-color: $background-color;
-    position: absolute;
+    background-attachment: scroll;
+    position: fixed;
     bottom: 0;
     width: 100%;
     text-align: center;
