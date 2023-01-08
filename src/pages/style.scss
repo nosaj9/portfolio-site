@@ -32,7 +32,7 @@ div {
 
     p {
         color: $text-color;
-        line-height: 3rem;
+        line-height: 2.6rem;
     }
 
     p > .pagelink {
@@ -105,5 +105,14 @@ div {
           animation-fill-mode: forwards;
           animation-delay: #{$i * 80}ms;
         }
+    }
+
+    a {
+        color: $text-color;
+        transition: color 150ms ease;
+    }
+
+    a:hover {
+        color: $navbar-active;
     }
 }
