@@ -6,7 +6,7 @@ import "./style.scss";
 const About = () => {
     return (
         <div className="About">
-            <br/>
+
             <h1>A little bit about me..</h1>
             <p>
                 Hi, I'm Jason! I'm a <span className="highlight">computer science</span> major studying at the University of Maryland, College Park where I'm also currently part
