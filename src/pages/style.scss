@@ -26,9 +26,8 @@ div {
     margin-right: 28%;
     text-align: left;
 
-    h2 {
+    h1 {
         color: $header-color;
-        text-align: center;
     }
 
     p {
@@ -49,7 +48,7 @@ div {
         color: $navbar-active;
     }
 
-    @for $i from 1 through 6 {
+    @for $i from 1 through 7 {
         & > *:nth-child(#{$i}) {
           opacity: 0;
           animation: fadeIn 500ms ease;

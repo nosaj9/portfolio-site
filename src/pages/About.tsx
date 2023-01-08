@@ -7,7 +7,7 @@ const About = () => {
     return (
         <div className="About">
             <br/>
-            <h2>A little bit about me..</h2>
+            <h1>A little bit about me..</h1>
             <p>
                 Hi, I'm Jason! I'm a <span className="highlight">computer science</span> major studying at the University of Maryland, College Park where I'm also currently part
                 of the Advanced Cybersecurity Experience for Students (ACES) Program. 
@@ -25,7 +25,7 @@ const About = () => {
             {/* <div>
                 <a href="file:///C:\Users\jdcom\Downloads\Jason_Wang_Resume-1.pdf" target="_blank" className="pagelink">View my resume <IoDocumentTextOutline /></a>
             </div> */}
-
+            <br/>
             <div className="LinkButton">
                 <Button text="View resume" link="Jason_Wang_Resume.pdf" icon={<IoDocumentTextOutline />} />
             </div>

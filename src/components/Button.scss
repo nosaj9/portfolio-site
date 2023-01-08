@@ -1,27 +1,32 @@
 @import "../style/colors";
 
-.LinkButton {
-
-}
-
 .LinkButton > a {
-    color: $accent;
-    background-color: $background-color;
+    background-color: $accent;
     border: none;
     text-decoration: none;
+    padding: 0.7rem 1.3rem;
+    border-radius: 1.5rem;
 }
 
 .LinkButton > a {
     transition: all 350ms ease;
-    font-size: 1.3rem;
+    font-size: 1.2rem;
 }
 
 .LinkButton > a:hover {
-    color: $navbar-active;
+    background-color: $navbar-active;
 }
 
+//resizes the icon and puts it in line
 .linkicon > * {
     margin-bottom: -0.2rem;
     height: 1.5rem;
     width: 1.5rem;
 }
+
+.linktext, .linkicon {
+    color: $text-color;
+    font-weight: 1000;
+}
+
+

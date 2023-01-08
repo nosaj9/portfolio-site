@@ -15,7 +15,7 @@ const Button = (
 
     return (
         <a href={link} target="_blank" rel="noreferrer">
-            {text} <span className="linkicon">{icon}</span>
+            <span className="linktext">{text}</span> <span className="linkicon">{icon}</span>
         </a>
     )
 }
