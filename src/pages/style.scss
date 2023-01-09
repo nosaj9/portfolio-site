@@ -1,7 +1,7 @@
 @import "../style/colors";
 
 div {
-    text-align: center;
+    // text-align: center;
     font-size: 1.5rem;
 }
 
@@ -13,7 +13,7 @@ div {
 @keyframes fadeIn {
     from {
       opacity: 0;
-      transform: translateY(-30%);
+      transform: translateY(-15%);
     }
     to {
       opacity: 1;
@@ -80,6 +80,10 @@ div {
     margin-right: 28%;
     text-align: left;
 
+    .introcontainer {
+        display: flex;
+    }
+
     h1 {
         color: $header-color;
         text-align: left;
@@ -94,7 +98,7 @@ div {
         border-radius: 20%;
         float: inline-end;
         margin-top: 3rem;
-        margin-right: 3rem;
+        margin-left: auto;
         border: 2px solid $navbar-color;
         transition: all 350ms ease;
     }
@@ -104,9 +108,15 @@ div {
         transform: scale(1.1);
     }
 
+    .imagecontainer {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
     .pokemon {
         object-fit: cover;
-        width: 25vw;
+        width: 24vw;
         height: 30vh;
         border: 2px solid $navbar-color;
         transition: all 350ms ease;
@@ -117,12 +127,34 @@ div {
         transform: scale(1.1);
     }
 
-    @for $i from 1 through 7 {
-        & > *:nth-child(#{$i}) {
+    .dacadence {
+        object-fit: cover;
+        width: 18vw;
+        height: 30vh;
+        border: 2px solid $navbar-color;
+        transition: all 350ms ease;
+    }
+
+    .dacadence:hover {
+        border: 2px solid $accent;
+        transform: scale(1.1);
+    }
+
+    @for $i from 1 through 2 {
+        & > div > *:nth-child(#{$i}) {
           opacity: 0;
           animation: fadeIn 500ms ease;
           animation-fill-mode: forwards;
           animation-delay: #{$i * 80}ms;
+        }
+    }
+
+    @for $i from 3 through 3 {
+        & > *:nth-child(#{$i}) {
+            opacity: 0;
+            animation: fadeIn 500ms ease;
+            animation-fill-mode: forwards;
+            animation-delay: #{$i * 80}ms;
         }
     }
 
