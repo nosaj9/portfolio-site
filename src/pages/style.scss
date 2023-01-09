@@ -90,12 +90,31 @@ div {
         line-height: 3rem;
     }
 
-    img {
-        border-radius: 50%;
-        float: right;
+    .me {
+        border-radius: 20%;
+        float: inline-end;
         margin-top: 3rem;
         margin-right: 3rem;
-        margin-right: 0;
+        border: 2px solid $navbar-color;
+        transition: all 350ms ease;
+    }
+
+    .me:hover {
+        border: 2px solid $accent;
+        transform: scale(1.1);
+    }
+
+    .pokemon {
+        object-fit: cover;
+        width: 25vw;
+        height: 30vh;
+        border: 2px solid $navbar-color;
+        transition: all 350ms ease;
+    }
+
+    .pokemon:hover {
+        border: 2px solid $accent;
+        transform: scale(1.1);
     }
 
     @for $i from 1 through 7 {
