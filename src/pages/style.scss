@@ -2,7 +2,7 @@
 
 div {
     // text-align: center;
-    font-size: 1.5rem;
+    font-size: calc(6px + 2vmin);
 }
 
 .highlight {
@@ -165,5 +165,13 @@ div {
 
     a:hover {
         color: $navbar-active;
+    }
+}
+
+.Projects {
+    text-align: left;
+
+    h1 {
+        color: $header-color;
     }
 }

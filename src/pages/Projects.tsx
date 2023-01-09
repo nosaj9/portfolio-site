@@ -1,8 +1,12 @@
 import React from "react"
+import "./style.scss";
 
 const Projects = () => {
     return (
-        <h1>Projects</h1>
+        <div className="Projects">
+            <br/>
+            <h1>Projects</h1>
+        </div>
     )
 }
 
