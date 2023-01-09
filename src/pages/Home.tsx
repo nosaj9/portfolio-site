@@ -16,13 +16,13 @@ const Home = () => {
                     </p>
                 </div>
                 <div>
-                    <NavLink to="/about"><img className="me" src={require("../files/headshot.jpg")} alt="me"/></NavLink>
+                    <NavLink to="/about"><img className="me" src="img/headshot.jpg" alt="me"/></NavLink>
                 </div>
             </div>
 
             <div className="imagecontainer">
-                <NavLink to="/projects"><img className="pokemon" src={require("../files/pkfanclub.png")} alt="pokemon fan club"/></NavLink>
-                <NavLink to="acappella"><img className="dacadence" src={require("../files/dafam.jpg")} alt="dacadence"/></NavLink>
+                <NavLink to="/projects"><img className="pokemon" src="img/pkfanclub.png" alt="pokemon fan club"/></NavLink>
+                <NavLink to="acappella"><img className="dacadence" src="img/dafam.jpg" alt="dacadence"/></NavLink>
             </div>
         </div>
     )
