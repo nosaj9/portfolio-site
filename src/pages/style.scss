@@ -191,7 +191,7 @@ div {
         line-height: 2.6rem;
     }
 
-    @for $i from 1 through 8 {
+    @for $i from 1 through 11 {
         & > *:nth-child(#{$i}) {
           opacity: 0;
           animation: fadeIn 400ms ease;
