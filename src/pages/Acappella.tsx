@@ -26,6 +26,16 @@ const Acappella = () => {
                     <img src="img/dafam.jpg" alt="dafam" className="dafam"/>
                 </div>
             </div>
+
+            <div className="bottom-imgs">
+                <div className="bottom-image1">
+                        <img src="img/concert.jpg" alt="concert" className="concert"/>
+                </div>
+
+                <div className="bottom-image2">
+                        <img src="img/hoff.jpg" alt="hoff" className="hoff"/>
+                </div>
+            </div>
         </div>
     )
 }

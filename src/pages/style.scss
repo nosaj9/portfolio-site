@@ -200,28 +200,35 @@ div {
         }
     }
 
+    // .image-stack {
+    //     display: grid;
+    //     grid-template-columns: repeat(12, 1fr);
+    //     grid-template-rows: repeat(2, 1fr);
+    //     position: relative;
+    // }
+
+    // .image-stack__item—top {
+    //     grid-column: 1/span 11;
+    //     grid-row: 1; // it must be on the same row as the second image
+    //     // padding-top: 20%; // this places the picture down and keeps it proportional.
+    //     // z-index: 2; //this renders the image on the top of the bottom photo.
+    // }
+
+    // .image-stack__item—bottom {
+    //     grid-column: 12;
+    //     grid-row: 1; //this makes the image appear on the same row
+    // }
+
     .image-stack {
-        display: grid;
-        grid-template-columns: repeat(12, 1fr);
-        position: relative;
-    }
-
-    .image-stack__item—top {
-        grid-column: 1/span 12;
-        grid-row: 1; // it must be on the same row as the second image
-        padding-top: 20%; // this places the picture down and keeps it proportional.
-        z-index: 2; //this renders the image on the top of the bottom photo.
-    }
-
-    .image-stack__item—bottom {
-        grid-column: 12;
-        grid-row: 1; //this makes the image appear on the same row
+        display: flex;
+        flex-direction: row;
+        gap: 1rem;
     }
 
     .dafam {
         object-fit: cover;
-        width: 25vw;
-        height: 40vh;
+        width: 23vw;
+        height: 35vh;
         border: 2px solid $navbar-color;
     }
 
@@ -229,6 +236,25 @@ div {
         object-fit: cover;
         width: 20vw;
         height: 35vh;
+        border: 2px solid $navbar-color;
+    }
+
+    .bottom-imgs {
+        display: flex;
+        flex-direction: row;
+        gap: 1rem;
+    }
+
+    .concert {
+        object-fit: cover;
+        height: 35vh;
+        border: 2px solid $navbar-color;
+    }
+
+    .hoff {
+        object-fit: cover;
+        height: 35vh;
+        width: 16vw;
         border: 2px solid $navbar-color;
     }
 }
