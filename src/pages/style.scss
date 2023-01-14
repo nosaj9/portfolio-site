@@ -10,6 +10,19 @@ div {
     font-weight: 600;
 }
 
+.pagelink {
+    color: $text-color;
+    transition: color 150ms ease;
+}
+
+.pagelink:visited {
+    color: $text-color;
+}
+
+.pagelink:hover {
+    color: $navbar-active;
+}
+
 @keyframes fadeIn {
     from {
       opacity: 0;
@@ -18,60 +31,6 @@ div {
     to {
       opacity: 1;
       transform: translateY(0);
-    }
-}
-
-.About {
-    margin-left: 28%;
-    margin-right: 28%;
-    text-align: left;
-
-    h1 {
-        color: $header-color;
-    }
-
-    p {
-        color: $text-color;
-        line-height: 2.6rem;
-    }
-
-    p > .pagelink {
-        color: $text-color;
-        transition: color 150ms ease;
-    }
-
-    p > .pagelink:visited {
-        color: $text-color;
-    }
-
-    p > .pagelink:hover {
-        color: $navbar-active;
-    }
-
-    @for $i from 1 through 7 {
-        & > *:nth-child(#{$i}) {
-          opacity: 0;
-          animation: fadeIn 500ms ease;
-          animation-fill-mode: forwards;
-          animation-delay: #{$i * 80}ms;
-        }
-    }
-    
-    & > div > a {
-        color: $accent;
-        text-decoration: none;
-    }
-
-    & > div > a:hover {
-        color: $navbar-active;
-    }
-
-    & > div > a > * {
-        height: 3rem;
-    }
-
-    & > div {
-        text-align: left;
     }
 }
 
@@ -86,7 +45,6 @@ div {
 
     h1 {
         color: $header-color;
-        text-align: left;
     }
     
     p {
@@ -168,7 +126,50 @@ div {
     }
 }
 
+.About {
+    margin-left: 28%;
+    margin-right: 28%;
+    text-align: left;
+
+    h1 {
+        color: $header-color;
+    }
+
+    p {
+        color: $text-color;
+        line-height: 2.6rem;
+    }
+
+    @for $i from 1 through 7 {
+        & > *:nth-child(#{$i}) {
+          opacity: 0;
+          animation: fadeIn 500ms ease;
+          animation-fill-mode: forwards;
+          animation-delay: #{$i * 80}ms;
+        }
+    }
+    
+    & > div > a {
+        color: $accent;
+        text-decoration: none;
+    }
+
+    & > div > a:hover {
+        color: $navbar-active;
+    }
+
+    & > div > a > * {
+        height: 3rem;
+    }
+
+    & > div {
+        text-align: left;
+    }
+}
+
 .Projects {
+    margin-left: 28%;
+    margin-right: 28%;
     text-align: left;
 
     h1 {
@@ -177,9 +178,16 @@ div {
 }
 
 .Acappella {
+    margin-left: 28%;
+    margin-right: 28%;
     text-align: left;
 
     h1 {
         color: $header-color;
+    }
+    
+    p {
+        color: $text-color;
+        line-height: 2.6rem;
     }
 }
