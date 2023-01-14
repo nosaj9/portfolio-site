@@ -143,7 +143,7 @@ div {
     @for $i from 1 through 7 {
         & > *:nth-child(#{$i}) {
           opacity: 0;
-          animation: fadeIn 500ms ease;
+          animation: fadeIn 400ms ease;
           animation-fill-mode: forwards;
           animation-delay: #{$i * 80}ms;
         }
@@ -189,5 +189,14 @@ div {
     p {
         color: $text-color;
         line-height: 2.6rem;
+    }
+
+    @for $i from 1 through 8 {
+        & > *:nth-child(#{$i}) {
+          opacity: 0;
+          animation: fadeIn 400ms ease;
+          animation-fill-mode: forwards;
+          animation-delay: #{$i * 80}ms;
+        }
     }
 }
