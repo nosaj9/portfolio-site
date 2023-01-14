@@ -1,4 +1,6 @@
 import React from "react"
+import { IoLogoInstagram } from "react-icons/io5";
+import Button from "../components/Button"
 import "./style.scss";
 
 const Acappella = () => {
@@ -15,7 +17,7 @@ const Acappella = () => {
             <p>The bond you develop by singing with others is really something unique and something can't experience through any other means.</p>
             <p>I've come to grow so close to my fellow members in the group through our experiences together and it truly feels like my second family.</p>
             <p>And if you were wondering, my voice part is <span className="highlight">Bass</span>.</p>
-            <br/>
+            {/* <br/> */}
 
             <div className="image-stack">
                 <div className="image-stack__item image-stack__item—top">
@@ -35,6 +37,10 @@ const Acappella = () => {
                 <div className="bottom-image2">
                         <img src="img/hoff.jpg" alt="hoff" className="hoff"/>
                 </div>
+            </div>
+
+            <div className="LinkButton">
+                <Button text="@dacadence_umd" link="https://www.instagram.com/dacadence_umd/" icon={<IoLogoInstagram />} />
             </div>
         </div>
     )
