@@ -8,8 +8,8 @@ const Home = () => {
             <br/>
             <div className="introcontainer">
                 <div>
-                    <h1>Hi, I'm Jason!</h1>
-                    <h2>I'm a student, singer, and aspiring software engineer.</h2>
+                    <h1>Jason Wang</h1>
+                    <h2>Hi there! I'm a student, singer, and aspiring software engineer.</h2>
                     <p>
                         Feel free to look around and contact me <a href="mailto:jwangd8@gmail.com" target="_blank" rel="noreferrer">here</a>!
                         <br/><span className="highlight">Quick Links:</span>

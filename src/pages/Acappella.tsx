@@ -2,7 +2,9 @@ import React from "react"
 
 const Acappella = () => {
     return (
-        <h1>Acappella</h1>
+        <div className="Acappella">
+            <h1></h1>
+        </div>
     )
 }
 
