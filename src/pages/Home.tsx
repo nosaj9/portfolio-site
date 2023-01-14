@@ -12,7 +12,7 @@ const Home = () => {
                     <h2>Hi there! I'm a student, singer, and aspiring software engineer.</h2>
                     <p>
                         Feel free to look around and contact me <a href="mailto:jwangd8@gmail.com" target="_blank" rel="noreferrer">here</a>!
-                        <br/><span className="highlight">Quick Links:</span>
+                        <br/><small><span className="highlight">Quick Links:</span></small>
                     </p>
                 </div>
                 <div>
