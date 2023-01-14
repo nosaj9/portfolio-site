@@ -15,6 +15,17 @@ const Acappella = () => {
             <p>The bond you develop by singing with others is really something unique and something can't experience through any other means.</p>
             <p>I've come to grow so close to my fellow members in the group through our experiences together and it truly feels like my second family.</p>
             <p>And if you were wondering, my voice part is <span className="highlight">Bass</span>.</p>
+            <br/>
+
+            <div className="image-stack">
+                <div className="image-stack__item image-stack__item—top">
+                    <img src="img/dadudes.JPEG" alt="dadudes" className="dadudes"/>
+                </div>
+
+                <div className="image-stack__item image-stack__item—bottom">
+                    <img src="img/dafam.jpg" alt="dafam" className="dafam"/>
+                </div>
+            </div>
         </div>
     )
 }
