@@ -23,7 +23,7 @@ export default function Footer() {
                 </a>
             </div>
 
-            <p>© 2023 Jason Wang - All Rights Reserved</p>
+            <p>© 2024 Jason Wang - All Rights Reserved</p>
         </footer>
     )
 }

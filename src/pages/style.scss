@@ -175,6 +175,25 @@ div {
     h1 {
         color: $header-color;
     }
+
+    p {
+        color: $text-color;
+        line-height: 2.6rem;
+    }
+
+    a {
+        color: $text-color;
+        transition: color 150ms ease;
+    }
+
+    @for $i from 1 through 20 {
+        & > *:nth-child(#{$i}) {
+          opacity: 0;
+          animation: fadeIn 400ms ease;
+          animation-fill-mode: forwards;
+          animation-delay: #{$i * 60}ms;
+        }
+    }
 }
 
 .Acappella {
@@ -235,7 +254,7 @@ div {
     .hoff {
         object-fit: cover;
         height: 35vh;
-        width: 16vw;
+        width: 20vw;
         border: 2px solid $navbar-color;
     }
 
