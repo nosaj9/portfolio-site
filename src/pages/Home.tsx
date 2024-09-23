@@ -22,7 +22,7 @@ const Home = () => {
 
             <div className="imagecontainer">
                 <NavLink to="/projects"><img className="pokemon" src="img/pkfanclub.png" alt="pokemon fan club"/></NavLink>
-                <NavLink to="acappella"><img className="dacadence" src="img/dafam.jpg" alt="dacadence"/></NavLink>
+                <NavLink to="/acappella"><img className="dacadence" src="img/dafam.jpg" alt="dacadence"/></NavLink>
             </div>
         </div>
     )
