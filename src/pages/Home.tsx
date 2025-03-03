@@ -9,7 +9,7 @@ const Home = () => {
             <div className="introcontainer">
                 <div>
                     <h1>Jason Wang</h1>
-                    <h3>Hi there! I'm a student, singer, and aspiring software engineer.</h3>
+                    <h3>Hello there! I'm a student, singer, and aspiring software engineer.</h3>
                     <p>
                         Feel free to look around and contact me at <a href="mailto:jwangd8@gmail.com" target="_blank" rel="noreferrer">jwangd8@gmail.com</a>
                         <br/><small><span className="highlight">Quick Links:</span></small>
