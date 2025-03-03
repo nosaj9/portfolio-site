@@ -1,4 +1,4 @@
 # my website
-has stuff about me  
+https://nosaj9.github.io/portfolio-site/
 made with TypeScript, SCSS, and HTML
 
