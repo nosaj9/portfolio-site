@@ -7,7 +7,7 @@ const Acappella = () => {
     return (
         <div className="Acappella">
             <br/>
-            <h1>My second family</h1>
+            <h1>My favorite hobby</h1>
             <p>I joined my first acappella group during junior year of high school and honestly I think it was one of the best decisions I ever made.</p>
             <p>I've met so many amazing people, discovered a new form of expressing myself, experienced the unmatched thrill of performing on stage, and opened so many new doors for me.</p>
             <p>

@@ -9,6 +9,8 @@ import "./Footer.scss"
 export default function Footer() {
     return (
         <footer>
+            {/* <hr></hr>
+            <br></br> */}
             <div className="icons">
                 <a href="mailto:jwangd8@gmail.com" target="_blank" rel="noreferrer">
                     <IoMail />
@@ -23,7 +25,7 @@ export default function Footer() {
                 </a>
             </div>
 
-            <p>© 2024 Jason Wang - All Rights Reserved</p>
+            <p>© 2025 Jason Wang - All Rights Reserved | Built with React and Typescript</p>
         </footer>
     )
 }
