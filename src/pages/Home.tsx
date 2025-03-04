@@ -30,7 +30,7 @@ const Home = () => {
                 <NavLink to="/acappella"><img className="dacadence" src={`${process.env.PUBLIC_URL}/img/dafam.jpg`} alt="dacadence"/></NavLink>
             </div> */}
             <ul>
-                <li><a href="Jason_Wang_Resume.pdf" target="_blank" rel="noreferrer">Resume</a></li>
+                <li><a href={`${process.env.PUBLIC_URL}/Jason_Wang_Resume.pdf`} target="_blank" rel="noreferrer">Resume</a></li>
                 <li><a href="https://www.linkedin.com/in/jason-d-wang/" target="_blank" rel="noreferrer">LinkedIn</a></li>
                 <li><a href="https://github.com/nosaj9" target="_blank" rel="noreferrer">Github</a></li>
             </ul>
