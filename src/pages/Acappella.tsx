@@ -38,11 +38,11 @@ const Acappella = () => {
 
             <div className="bottom-imgs">
                 <div className="bottom-image1">
-                        <img src="img/dafamnyc.jpg" alt="concert" className="concert"/>
+                        <img src="img/dafamnyc.jpg" alt="nyc" className="nyc"/>
                 </div>
 
                 <div className="bottom-image2">
-                        <img src="img/FL.jpg" alt="hoff" className="hoff"/>
+                        <img src="img/FL.jpg" alt="finals" className="finals"/>
                 </div>
             </div>
         </div>

@@ -20,9 +20,9 @@ const Home = () => {
                         Feel free to look around and contact me at <a href="mailto:jwangd8@gmail.com" target="_blank" rel="noreferrer">jwangd8@gmail.com</a>
                     </p>
                 </div>
-                <div>
+                {/* <div> */}
                     <NavLink to="/about"><img className="me" src={`${process.env.PUBLIC_URL}/img/headshot.jpg`} alt="me"/></NavLink>
-                </div>
+                {/* </div> */}
             </div>
             <div className="highlight quickLinks">Quick Links:</div>
             {/* <div className="imagecontainer">

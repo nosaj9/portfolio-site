@@ -25,7 +25,8 @@ export default function Footer() {
                 </a>
             </div>
 
-            <p>© 2025 Jason Wang - All Rights Reserved | Built with React and Typescript</p>
+            <p id="landscapefooter">© 2025 Jason Wang - All Rights Reserved | Built with React and Typescript</p>
+            <p id="portraitfooter">© 2025 Jason Wang - All Rights Reserved <br/> Built with React and Typescript</p>
         </footer>
     )
 }

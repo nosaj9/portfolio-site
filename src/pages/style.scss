@@ -2,7 +2,11 @@
 
 div {
     // text-align: center;
-    font-size: calc(8px + 1vmin);
+    font-size: calc(9px + 1vmin);
+
+    @media (max-width: 768px) {
+        font-size: calc(9px + 1.5vmin);
+    }
 }
 
 .highlight {
@@ -34,16 +38,35 @@ div {
     }
 }
 
+
+
 .Home {
     margin-left: 28%;
     margin-right: 28%;
     text-align: left;
 
+    @media (max-width: 768px) {
+        margin-left: 5%;
+        margin-right: 5%;
+
+        li {
+            font-size: calc(9px + 1vmin);
+        }
+    }
+
     .introcontainer {
         display: flex;
         flex-direction: row;
         justify-content: space-between;
-        margin: 2%
+        margin: 2%;
+
+        @media (max-width: 768px) {
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            margin: 2%;
+            align-items: center;
+        }
     }
 
     .quickLinks {
@@ -61,9 +84,9 @@ div {
 
     .me {
         border-radius: 20%;
-        float: inline-end;
-        margin-top: 3rem;
-        margin-left: auto;
+        // float: inline-end;
+        margin-top: 1rem;
+        // margin-left: auto;
         border: 2px solid $navbar-color;
         transition: all 350ms ease;
     }
@@ -116,6 +139,10 @@ div {
 
     li {
         margin: 1%;
+
+        @media (max-width: 768px) {
+            font-size: calc(9px + 1.5vmin);
+        }
     }
 
     li:hover {
@@ -150,6 +177,11 @@ div {
     margin-left: 28%;
     margin-right: 28%;
     text-align: left;
+
+    @media (max-width: 768px) {
+        margin-left: 5%;
+        margin-right: 5%;
+    }
 
     h1 {
         color: $header-color;
@@ -192,6 +224,11 @@ div {
     margin-right: 28%;
     text-align: left;
 
+    @media (max-width: 768px) {
+        margin-left: 5%;
+        margin-right: 5%;
+    }
+
     h1 {
         color: $header-color;
     }
@@ -221,6 +258,11 @@ div {
     margin-right: 28%;
     // text-align: left;
 
+    @media (max-width: 768px) {
+        margin-left: 5%;
+        margin-right: 5%;
+    }
+
     h1 {
         color: $header-color;
     }
@@ -243,6 +285,11 @@ div {
         display: flex;
         flex-direction: row;
         gap: 0.5rem;
+
+        @media (max-width: 768px) {
+            flex-direction: column;
+            align-items: center;
+        }
     }
 
     .dafam {
@@ -250,6 +297,11 @@ div {
         width: 23vw;
         height: 35vh;
         border: 2px solid $navbar-color;
+
+        @media (max-width: 768px) {
+            width: 80vw;
+            height: 50vh;
+        }
     }
 
     .dadudes {
@@ -257,25 +309,42 @@ div {
         width: 20vw;
         height: 35vh;
         border: 2px solid $navbar-color;
+
+        @media (max-width: 768px) {
+            width: 80vw;
+        }
     }
 
     .bottom-imgs {
         display: flex;
         flex-direction: row;
         gap: 0.5rem;
+
+        @media (max-width: 768px) {
+            flex-direction: column;
+            align-items: center;
+        }
     }
 
-    .concert {
+    .nyc {
         object-fit: cover;
         height: 35vh;
         border: 2px solid $navbar-color;
+
+        @media (max-width: 768px) {
+            width: 80vw;
+        }
     }
 
-    .hoff {
+    .finals {
         object-fit: cover;
         height: 35vh;
         width: 20vw;
         border: 2px solid $navbar-color;
+
+        @media (max-width: 768px) {
+            width: 80vw;
+        }
     }
 
     .LinkButton {

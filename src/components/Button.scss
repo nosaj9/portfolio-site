@@ -8,6 +8,10 @@
     border-radius: 1.5rem;
     transition: all 350ms ease;
     font-size: 1.2rem;
+
+    @media (max-width: 768px) {
+        font-size: 1rem;
+    }
 }
 
 .LinkButton > a:hover {

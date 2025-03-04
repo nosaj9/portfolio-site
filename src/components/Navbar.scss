@@ -7,6 +7,11 @@
     justify-content: center;
     padding: 1.5rem;
     background-color: $navbar-color;
+
+    @media (max-width: 768px) {
+        gap: 2.25rem;
+
+    }
 }
 
 .normal {

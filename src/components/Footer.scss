@@ -7,6 +7,19 @@ footer {
     width: 100%; // Don't change
     margin-top: auto;
     padding-top: 3rem;
+
+
+    @media (min-width: 768px) {
+        #portraitfooter {
+            display:none;
+        }
+    }
+
+    @media (max-width: 768px) {
+        #landscapefooter {
+            display: none;
+        }
+    }
 }
 
 .icons {
@@ -31,4 +44,8 @@ footer {
 footer > p {
     color: $text-color;
     font-size: 1rem;
+
+    @media (max-width: 768px) {
+        font-size: 0.8rem;
+    }
 }
