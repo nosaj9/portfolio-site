@@ -24,7 +24,7 @@ const Home = () => {
                     <NavLink to="/about"><img className="me" src={`${process.env.PUBLIC_URL}/img/headshot.jpg`} alt="me"/></NavLink>
                 </div>
             </div>
-            <div className="highlight">Quick Links:</div>
+            <div className="highlight quickLinks">Quick Links:</div>
             {/* <div className="imagecontainer">
                 <NavLink to="/projects"><img className="pokemon" src={`${process.env.PUBLIC_URL}/img/pkfanclub.png`} alt="pokemon fan club"/></NavLink>
                 <NavLink to="/acappella"><img className="dacadence" src={`${process.env.PUBLIC_URL}/img/dafam.jpg`} alt="dacadence"/></NavLink>
