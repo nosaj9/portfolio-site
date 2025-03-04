@@ -9,6 +9,8 @@ import "./Footer.scss"
 export default function Footer() {
     return (
         <footer>
+            {/* <hr></hr>
+            <br></br> */}
             <div className="icons">
                 <a href="mailto:jwangd8@gmail.com" target="_blank" rel="noreferrer">
                     <IoMail />

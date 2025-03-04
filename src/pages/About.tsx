@@ -9,12 +9,14 @@ const About = () => {
             <br/>
             <h1>A little bit about me..</h1>
             <p>
-                I'm a <span className="highlight">computer science</span> major on the machine learning track studying at the University of Maryland, College Park. I'm also pursuing a minor in <span className="highlight">statistics</span>. I was also previously and now graduated from the Advanced Cybersecurity Experience for Students (<a href="https://aces.umd.edu" target="_blank" rel="noreferrer" className="pagelink">ACES</a>) Program at UMD. 
+                I'm a <span className="highlight">computer science</span> major on the machine learning track studying at the University of Maryland, College Park. I'm also pursuing a minor in <span className="highlight">statistics</span>. 
+                I was also previously in Advanced Cybersecurity Experience for Students (<a href="https://aces.umd.edu" target="_blank" rel="noreferrer" className="pagelink">ACES</a>) Program at UMD, which I completed at the end of my sophomore year. 
                 After graduating, I hope to be a <span className="highlight">software engineer</span>!
             </p>
 
             <p>
-                During my free time, I like to sing, play piano (mostly movie/video game soundtracks), watch DC Comics cartoons, and hangout with my dog Brooke. 
+                I love making music. Currently, I'm learning "Call of Silence" from <i>Attack on Titan</i> on piano. I'm also in an acappella group here on campus (click the Acappella tab for more)!
+                I also enjoy reading, right now I'm on <i>When Breath Becomes Air</i> by Paul Kalanithi. 
             </p>
 
             <p>
